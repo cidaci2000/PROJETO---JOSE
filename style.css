@@ -1,0 +1,50 @@
+
+body {
+    background:url(susten.png) repeat-x top center;
+    color: rgb(6, 6, 7);
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+    
+}
+.imagem{
+    float:left;
+    width:100%;
+    height: 300px;
+    background:url(susten.png) repeat-x top center;
+}
+
+.cabecalho{
+    margin-block-end: auto;
+    background: rgb(54, 23, 23);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: honeydew;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 40px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 1px;
+
+}
+
+.nave{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-around;
+    font-size: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 1px;
+}
+
+.item-botao{
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
